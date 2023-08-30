@@ -1,0 +1,30 @@
+1. In order to reduce code duplication, describe how you would handle code that is shared among multiple test
+classes and methods.
+
+- I would use the JAVA OOPS concept, more specifically the inheritance in order to reuse the methods and avoid the duplication of the code.
+
+
+
+
+
+2. How would you handle selecting the desired option in a drop-down element that is not a normal HTML select
+element?
+
+- I would consider it as any normal WebElement, inspect it and use FindElement and then click on it.
+
+
+
+
+3. Given the two tables below (Account and Customer),
+Write a query that will return the first and last names of accounts that are ACTIVE and with a balance of less
+than 2,000
+
+-SELECT FIRST NAME, LAST NAME
+ FROM Customer
+ INNER JOIN Account
+ ON  Customer.CARD NUMBER = Account.CARD_NUM
+ WHERE  Account.STATUS = 'ACTIVE' AND Account.BALANCE < 2000;
+
+
+
+
