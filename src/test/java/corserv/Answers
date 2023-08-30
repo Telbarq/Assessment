@@ -28,3 +28,19 @@ than 2,000
 
 
 
+
+ 4. Coding task :
+
+ -The website works perfectly fine through the manual test. Although, the automation test does not
+
+ perform as expected because by clicking on either "Continue" or "Skip the step" it directs you to an error page
+
+ and not to the needed page to perform assertion.
+
+ The website seems to be set to a high security layer since it is banking related as you are aware of.
+
+
+
+
+
+
